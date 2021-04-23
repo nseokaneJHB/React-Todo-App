@@ -1,0 +1,19 @@
+{
+	"tasks" : [
+		{
+			"id": "2089848c",
+			"task": "Meet with the guys",
+			"isComplete": false
+		},
+		{
+			"id": "eefe2b6e",
+			"task": "Skate with the guys",
+			"isComplete": false
+		},
+		{
+			"id": "c8c97481",
+			"task": "Eat with the guys",
+			"isComplete": true
+		}
+	]
+}

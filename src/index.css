@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 1s;
+  transition: 1s;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(./assets/bg1.jpeg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 88.5vh;
+  width: 100%;
+}
+
+.app {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 5rem auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 600px;
+  gap: 5px;
+}
+
+.app .card-bg {
+  background-color: rgba(0, 0, 0, 0.487);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  padding: 0;
+}
+
+.app .card-bg .group-btns {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.app .small-card {
+  color: #eee;
+  padding: 0 !important;
+}
+
+.app .small-card p {
+  margin: 0;
+}
+
+.app .small-card:hover {
+  background-color: rgba(126, 126, 126, 0.487);
+}
+
+.app .strike {
+  color: red;
+  text-decoration: line-through;
+}
+/*# sourceMappingURL=index.css.map */
